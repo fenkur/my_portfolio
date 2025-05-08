@@ -18,7 +18,7 @@ export default function Navbar() {
           <NavigationMenuList className="flex items-center space-x-2">
             <NavigationMenuItem>
               <Link href="/blog" className="hover:underline hover:text-gray-300 transition duration-200">
-                about
+                blog
               </Link>
             </NavigationMenuItem>
             <span className="text-white">/</span>

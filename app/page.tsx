@@ -1,5 +1,6 @@
 import Navbar from "@/components/NavBar";
 import Link from 'next/link';
+import Contacts from '@/components/Contacts'
 
 
 export default function Home() {
@@ -13,13 +14,30 @@ export default function Home() {
           <p className="text-gray-300 leading-relaxed">I'm a student at the University of Minnesota majoring in IT Infrastructure. 
             Even though I'm not a Computer Science student, I like to code and learn computer science related topics in my spare time. 
             Feel free to connect with me on LinkedIn or send me an email.</p>
-          <h1 className="text-1xl font-bold">Projects</h1>
-          <Link href="https://github.com/fenkur/study-website">
-            <h1>Study Tracker Website</h1>
-          </Link>
-          <p>A full-stack productivity web app that helps users track their coding sessions by programming language and converts time studied into experience points (EXP). Features include secure JWT-based user authentication, a real-time timer, personalized dashboards, and a global leaderboard. Built with Next.js (TypeScript), Tailwind CSS, Express.js, and MongoDB.</p>
         </div>
       </section>
+
+      <section className="mx-auto max-w-screen-sm px-5 py-12">
+        <div className="space-y-6">
+          <h1 className="text-1xl font-bold">Projects</h1>
+          <Link href="https://github.com/fenkur/study-website">
+            <h1>Study Tracker Website: </h1>
+          </Link>
+          <p>I wanted to practice frontend and backend development so I tried making a simple full-stack web application. It was built using Next.js (TypeScript), Tailwind CSS, Express.js, and MongoDB. </p>
+          
+          <Link href="https://github.com/fenkur/Subscription-Tracker">
+            <h1>Subscription Tracker: </h1>
+          </Link>
+          <p>A project I made following a YouTube tutorial on Backend Development. It taught me things such as building RESTful APIs, JWT Authentication, Security, Database Modeling with MongoDB, etc.</p>
+
+          <div>
+            <h1>Other Projects: </h1>
+            <p>I will try my best to add more projects in the future!!</p>
+          </div>
+        </div>
+      </section>
+      
+      <Contacts />
     </div>
     </>
   );
