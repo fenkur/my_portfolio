@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer"
 import NavBar from "@/components/NavBar"
 export default function Home() {
     return (
@@ -8,13 +9,12 @@ export default function Home() {
                 <div className="space-y-6">
                     <h1 className="text-1xl font-bold">Blog / Yap</h1>
                     <p className="text-gray-300 leading-relaxed">This will be a dedicated page for my background, interest, and other stuff I'm interested in. 
-                        
-
 
                     </p>
                 </div>
             </section>
         </div>
+        <Footer />
         </>
     )
 }

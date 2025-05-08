@@ -1,6 +1,7 @@
 import Navbar from "@/components/NavBar";
 import Link from 'next/link';
 import Contacts from '@/components/Contacts'
+import Footer from "@/components/Footer";
 
 
 export default function Home() {
@@ -11,7 +12,7 @@ export default function Home() {
       <section className="mx-auto max-w-screen-sm px-5 py-12">
         <div className="space-y-6">
           <h1 className="text-1xl font-bold">Hi, I'm Fenky</h1>
-          <p className="text-gray-300 leading-relaxed">I'm a student at the University of Minnesota majoring in IT Infrastructure. 
+          <p className="text-white leading-relaxed">I'm a student at the University of Minnesota majoring in IT Infrastructure. 
             Even though I'm not a Computer Science student, I like to code and learn computer science related topics in my spare time. 
             Feel free to connect with me on LinkedIn or send me an email.</p>
         </div>
@@ -19,7 +20,7 @@ export default function Home() {
 
       <section className="mx-auto max-w-screen-sm px-5 py-12">
         <div className="space-y-6">
-          <h1 className="text-1xl font-bold">Projects</h1>
+          <h1 className="text-1xl font-bold" id="projects">Projects</h1>
           <Link href="https://github.com/fenkur/study-website">
             <h1>Study Tracker Website: </h1>
           </Link>
@@ -38,6 +39,7 @@ export default function Home() {
       </section>
       
       <Contacts />
+      <Footer />
     </div>
     </>
   );
