@@ -20,6 +20,9 @@ export default function Home() {
                         knowledge to help others or just make whatever I want that comes to mind. 
                     </p>
                     <p className="text-white leading-relaxed">
+                        In my spare time I like to listen to music, go to the gym, drive, read mangas and books, eat food, and try new things. I also like to volunteer from time to time.
+                    </p>
+                    <p className="text-white leading-relaxed">
                         It&apos;s currently summer right now so I&apos;m trying to find a job and build projects along the way. I&apos;m also trying to get an AWS certificate along the way.
                     </p>
                 </div>

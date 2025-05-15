@@ -9,9 +9,11 @@ import {
 import Link from 'next/link';
 import { usePathname, useRouter } from 'next/navigation';
 
+
 export default function Navbar() {
   const router = useRouter();
   const pathname = usePathname();
+ 
 
   const handleNavClick = (target: string) => {
     if (pathname === '/') {
@@ -25,7 +27,7 @@ export default function Navbar() {
   };
 
   return (
-    <div className="bg-black text-white py-4 w-full">
+    <div className="bg-gray-950 text-white py-4 w-full">
       <div className="max-w-3xl mx-auto flex justify-between items-center px-4">
         <Link href="/" className="text-white hover:text-gray-300 transition-colors font-medium">
           Fenky Wah

@@ -14,7 +14,6 @@ export default function Home() {
             <p className="text-white leading-relaxed">
               I&apos;m a student at the University of Minnesota majoring in IT Infrastructure. 
               Even though I&apos;m not a Computer Science student, I like to code and learn computer science related topics in my spare time. 
-              Feel free to connect with me on LinkedIn or send me an email.
             </p>
           </div>
         </section>
