@@ -27,7 +27,7 @@ export default function Navbar() {
   };
 
   return (
-    <div className="bg-gray-950 text-white py-4 w-full sticky top-0 z-50 backdrop-blur-md">
+    <div className="bg-[#242832] text-white py-4 w-full sticky top-0 z-50 backdrop-blur-md">
       <div className="max-w-3xl mx-auto flex justify-between items-center px-4">
         <Link href="/" className="text-white hover:text-gray-300 transition-colors font-medium">
           Fenky Wah

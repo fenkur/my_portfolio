@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <div className="bg-black text-white min-h-screen px-8">
+      <div className="bg-[#101218] text-white min-h-screen px-8">
         <section className="mx-auto max-w-screen-sm px-5 py-12">
           <div className="space-y-6">
             <h1 className="text-1xl font-bold">Hi, I&apos;m Fenky</h1>
