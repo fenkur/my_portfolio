@@ -3,6 +3,7 @@ import Link from 'next/link';
 import Contacts from '@/components/Contacts';
 import Footer from "@/components/Footer";
 
+
 export default function Home() {
   return (
     <>
@@ -36,6 +37,14 @@ export default function Home() {
             <p>
               A project I made following a YouTube tutorial on Backend Development. 
               It taught me things such as building RESTful APIs, JWT Authentication, Security, Database Modeling with MongoDB, etc.
+            </p>
+
+            <Link href="https://github.com/fenkur/night-shift">
+              <h1>Night Shift Chrome Extension:</h1>
+            </Link>
+            <p>
+              A simple Google Extension that stimulates night shift mode by reducing blue light on any website that you visit.
+              This helped me get into Google Chrome Extension development.
             </p>
 
             <div>
