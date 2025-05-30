@@ -13,6 +13,7 @@ export default function Home() {
             <p className="text-white leading-relaxed">
               I&apos;m a student at the University of Minnesota majoring in IT Infrastructure. 
               I like to code in my spare time. I'm gonna make random stuff and hopefully it&apos;ll be fun!
+              I&apos;m still a noob but I&apos;ll improve my skills over time.
             </p>
           </div>
         </section>
