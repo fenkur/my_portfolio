@@ -1,3 +1,8 @@
+export const metadata = {
+    title: 'Blog',
+    description: 'Blog route for Portfolio',
+};
+
 export default function Home() {
     return (
         <>
@@ -29,3 +34,4 @@ export default function Home() {
         </>
     )
 }
+

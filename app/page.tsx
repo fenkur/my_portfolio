@@ -1,7 +1,10 @@
 import Link from 'next/link';
 import Contacts from '@/components/Contacts';
 
-
+export const metadata = {
+  title: 'Fenky Wah | Home',
+  description: 'Portfolio Website',
+}
 
 export default function Home() {
   return (
