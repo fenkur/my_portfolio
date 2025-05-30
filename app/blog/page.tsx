@@ -1,10 +1,6 @@
-import Footer from "@/components/Footer"
-import NavBar from "@/components/NavBar"
-
 export default function Home() {
     return (
         <>
-        <NavBar />
         <div className="flex flex-col min-h-screen bg-[#101218] text-white">
             <main className="flex-grow px-8">
                 <section className="mx-auto max-w-screen-sm px-5 pt-10 pb-2">
@@ -29,7 +25,6 @@ export default function Home() {
                     </div>
                 </section>
             </main>
-            <Footer />
         </div>
         </>
     )

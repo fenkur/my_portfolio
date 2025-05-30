@@ -1,20 +1,18 @@
-import Navbar from "@/components/NavBar";
 import Link from 'next/link';
 import Contacts from '@/components/Contacts';
-import Footer from "@/components/Footer";
+
 
 
 export default function Home() {
   return (
     <>
-      <Navbar />
       <div className="bg-[#101218] text-white min-h-screen px-8">
         <section className="mx-auto max-w-screen-sm px-5 py-12">
           <div className="space-y-6">
             <h1 className="text-1xl font-bold">Hi, I&apos;m Fenky</h1>
             <p className="text-white leading-relaxed">
               I&apos;m a student at the University of Minnesota majoring in IT Infrastructure. 
-              Even though I&apos;m not a Computer Science student, I like to code and learn computer science related topics in my spare time. 
+              I like to code in my spare time. I'm gonna make random stuff and hopefully it&apos;ll be fun!
             </p>
           </div>
         </section>
@@ -54,7 +52,6 @@ export default function Home() {
           </div>
         </section>
         <Contacts />
-        <Footer />
       </div>
     </>
   );
