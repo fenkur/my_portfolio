@@ -48,6 +48,22 @@ export default function Home() {
               A simple Google Extension that stimulates night shift mode by reducing blue light on any website that you visit.
               This helped me get into Google Chrome Extension development.
             </p>
+            
+            <Link href="https://github.com/fenkur/my_portfolio">
+              <h1>Portfolio Website:</h1>
+            </Link>
+            <p>
+              A simple portfolio website built using Next.js and Tailwind CSS. Initally, I was going to make it using React but I ended up making it using Next.js because
+              I liked how easy the routing was.
+            </p>
+
+            <Link href="https://github.com/fenkur/doctor-appointment">
+              <h1>Doctor Appointment System:</h1>
+            </Link>
+            <p>
+              A project I&apos;m currently working on. I was curious on implementing an appointment system so this is what I&apos;ll be working on. 
+              I will the list the features once it&apos;s done.
+            </p>
 
             <div>
               <h1>Other Projects: </h1>
