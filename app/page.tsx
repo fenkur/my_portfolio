@@ -57,18 +57,15 @@ export default function Home() {
               I liked how easy the routing was.
             </p>
 
-            <Link href="https://github.com/fenkur/doctor-appointment">
-              <h1>Doctor Appointment System:</h1>
+            <Link href="https://github.com/fenkur/resume-rater">
+              <h1>Resume Rater:</h1>
             </Link>
             <p>
-              A project I&apos;m currently working on. I was curious on implementing an appointment system so this is what I&apos;ll be working on. 
-              I will the list the features once it&apos;s done.
+              I had the idea from learning about Embedding and I want to compare an applicant&apos;s resume against a job description to determine how well they match, using 
+              natural language embeddings and semantic similarity scoring. It uses a Sentence Transform from HuggingFace to generate the semantic embeddings and compute a cosine similarity
+              score that reflects how well the resume fits the job. I visualized the semantic relationship between the two using a scatter plot. I used Jupyter Notebook because some
+              of the libraries wasn&apos;t working for me locally.
             </p>
-
-            <div>
-              <h1>Other Projects: </h1>
-              <p>I will try my best to add more projects in the future!!</p>
-            </div>
           </div>
         </section>
         <Contacts />
