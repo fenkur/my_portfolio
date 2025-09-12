@@ -27,6 +27,11 @@ export default function Home() {
                         <p className="text-white leading-relaxed">
                             It&apos;s currently summer right now so I&apos;m trying to find a job and build projects along the way. I&apos;m also trying to get an AWS certificate along the way.
                         </p>
+                        <p className="text-white leading-relaxed">
+                            Summer has passed and unfortunately I wasn&apos;t able to get any AWS certifications but Oracle had an event called Race to Certifications and I was able to get 3 of them!!
+                            I want to get more certifications but I feel like I need better projects ideas to land an internship. Anyways I&apos;ll be studying for AWS certifications from a website called 
+                            learn.cantrill.io, which I got from my professor. I will also try to do projects..
+                        </p>
                     </div>
                 </section>
             </main>
