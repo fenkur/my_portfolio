@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export const metadata = {
     title: 'Blog',
     description: 'Blog route for Portfolio',
@@ -30,8 +32,20 @@ export default function Home() {
                         <p className="text-white leading-relaxed">
                             Summer has passed and unfortunately I wasn&apos;t able to get any AWS certifications but Oracle had an event called Race to Certifications and I was able to get 3 of them!!
                             I want to get more certifications but I feel like I need better projects ideas to land an internship. Anyways I&apos;ll be studying for AWS certifications from a website called 
-                            learn.cantrill.io, which I got from my professor. I will also try to do projects..
+                            learn.cantrill.io, which I got from my professor. I will also try to do projects.. Oh yea here are the certifications I earned over the summer!
                         </p>
+
+                        <h1 className="text-1xl font-bold">Certifications</h1>
+                        <Link href="https://catalog-education.oracle.com/pls/certview/sharebadge?id=CDB9DB7A5B906505FF25DC5D2012FEF1A1D76A560C223EDBCCE4A3C366276F63">
+                            <p>Oracle Cloud Infrastructure 2025 Certified Generative AI Professional</p>
+                        </Link>
+                        <Link href="https://catalog-education.oracle.com/pls/certview/sharebadge?id=E13AA640D56CDBC6012E3A3180474AE8DBAD2055565C4B23F9F017A19D4ECEE9">
+                            <p>Oracle Cloud Infrastructure 2025 Certified AI Foundations Associate</p>
+                        </Link>
+                        <Link href="https://catalog-education.oracle.com/pls/certview/sharebadge?id=FD33DBE6C6F4ED85564632FED1A85F95395E51169FA209499021A9B079254966">
+                            <p>Oracle Cloud Infrastructure 2025 Certified Foundations Associate</p>
+                        </Link>
+                        
                     </div>
                 </section>
             </main>

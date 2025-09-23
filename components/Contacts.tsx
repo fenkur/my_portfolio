@@ -17,6 +17,8 @@ export default function Contacts() {
           <Link href="https://www.linkedin.com/in/fenky-wah/" className="hover:underline hover:text-gray-300 transition duration-200">LinkedIn</Link>
           <span> / </span>
           <a href="mailto:fenkywah15@gmail.com" className="hover:underline hover:text-gray-300 transition duration-200"> fenkywah15@gmail.com</a>
+          <span> / </span>
+          <Link href="https://www.youtube.com/@fenkur" className="hover:underline hover:text-gray-300 transition duration-200">YouTube</Link>
         </div>
       </div>
     </section>

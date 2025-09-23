@@ -15,8 +15,8 @@ export default function Home() {
             <h1 className="text-1xl font-bold">Hi, I&apos;m Fenky</h1>
             <p className="text-white leading-relaxed">
               I&apos;m a student at the University of Minnesota majoring in IT Infrastructure. 
-              I like to code in my spare time. I&apos;m gonna make random stuff and hopefully it&apos;ll be fun!
-              I&apos;m still a noob but I&apos;ll improve my skills over time.
+              I like learning new technologies and things in general. I hope to one day inspire others,
+              just like how I was inspired by others.
             </p>
           </div>
         </section>
