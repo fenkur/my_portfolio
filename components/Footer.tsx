@@ -7,7 +7,7 @@ const Footer = () => {
     <footer>
       <div className="mx-auto max-w-screen-sm px-5 py-11">
         <div className="flex flex-col md:flex-row justify-between items-center">
-            <span className="text-white text-bold">© {currentYear} | Fenky Wah | Updated: 9/23/2025</span>
+            <span className="text-muted-foreground font-semibold">© {currentYear} | Fenky Wah | Updated: 10/4/2025</span>
         </div>
       </div>
     </footer>

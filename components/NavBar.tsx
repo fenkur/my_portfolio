@@ -8,12 +8,11 @@ import {
 } from '@/components/ui/navigation-menu';
 import Link from 'next/link';
 import { usePathname, useRouter } from 'next/navigation';
-
+import { ThemeToggle } from './ThemeToggle';
 
 export default function Navbar() {
   const router = useRouter();
   const pathname = usePathname();
- 
 
   const handleNavClick = (target: string) => {
     if (pathname === '/') {
@@ -27,39 +26,42 @@ export default function Navbar() {
   };
 
   return (
-    <div className="bg-[#242832] text-white py-4 w-full sticky top-0 z-50 backdrop-blur-md">
+    <div className="bg-card/95 border-b border-border text-foreground py-4 w-full sticky top-0 z-50 backdrop-blur-md shadow-sm">
       <div className="max-w-3xl mx-auto flex justify-between items-center px-4">
-        <Link href="/" className="text-white hover:text-gray-300 transition-colors font-medium">
+        <Link href="/" className="text-foreground hover:text-primary transition-colors font-semibold">
           Fenky Wah
         </Link>
 
-        <NavigationMenu>
-          <NavigationMenuList className="flex items-center space-x-2">
-            <NavigationMenuItem>
-              <Link href="/blog" className="hover:underline hover:text-gray-300 transition duration-200">
-                blog
-              </Link>
-            </NavigationMenuItem>
-            <span className="text-white">/</span>
-            <NavigationMenuItem>
-              <button
-                onClick={() => handleNavClick('projects')}
-                className="hover:underline hover:text-gray-300 transition duration-200"
-              >
-                projects
-              </button>
-            </NavigationMenuItem>
-            <span className="text-white">/</span>
-            <NavigationMenuItem>
-              <button
-                onClick={() => handleNavClick('contacts')}
-                className="hover:underline hover:text-gray-300 transition duration-200"
-              >
-                contacts
-              </button>
-            </NavigationMenuItem>
-          </NavigationMenuList>
-        </NavigationMenu>
+        <div className="flex items-center gap-4">
+          <NavigationMenu>
+            <NavigationMenuList className="flex items-center space-x-2">
+              <NavigationMenuItem>
+                <Link href="/blog" className="text-foreground hover:underline hover:text-primary transition duration-200">
+                  blog
+                </Link>
+              </NavigationMenuItem>
+              <span className="text-muted-foreground">/</span>
+              <NavigationMenuItem>
+                <button
+                  onClick={() => handleNavClick('projects')}
+                  className="text-foreground hover:underline hover:text-primary transition duration-200"
+                >
+                  projects
+                </button>
+              </NavigationMenuItem>
+              <span className="text-muted-foreground">/</span>
+              <NavigationMenuItem>
+                <button
+                  onClick={() => handleNavClick('contacts')}
+                  className="text-foreground hover:underline hover:text-primary transition duration-200"
+                >
+                  contacts
+                </button>
+              </NavigationMenuItem>
+            </NavigationMenuList>
+          </NavigationMenu>
+          <ThemeToggle />
+        </div>
       </div>
     </div>
   );
