@@ -75,6 +75,16 @@ export default function Home() {
               The platform provides a unified dashboard for multiple AI-powered tools including content generation, 
               image manipulation, and resume analysis.
             </p>
+
+            <Link href='https://github.com/fenkur/agentic-ai/tree/main/financial-application' className="hover:text-primary transition-colors">
+              <h1 className="font-semibold">Agentic AI: Financial Assistant</h1>
+            </Link>
+            <p className="text-muted-foreground">
+              A multi-agent AI system that I built to learn about agentic AI and how specialized agents can work together to solve complex tasks. 
+              The project uses Phidata to orchestrate multiple AI agents - one for web search and another for financial data analysis. 
+              It taught me about agent coordination, tool integration with YFinance and DuckDuckGo, and how to structure AI systems that can 
+              delegate tasks intelligently. I used Groq's LLaMA 3.3 model for the AI inference.
+            </p>
           </div>
         </section>
         <Contacts />
