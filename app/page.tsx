@@ -16,8 +16,7 @@ export default function Home() {
             <p className="text-foreground leading-relaxed">
               I&apos;m a student at the University of Minnesota majoring in IT Infrastructure. 
               I like learning new technologies and things in general. I hope to one day inspire others,
-              just like how I was inspired by others. In my spare time I like to listen to music, 
-              go to the gym, drive, read mangas and books, eat food, and try new things. I also volunteer from time to time.
+              just like how others have inspired me. I&apos;m currently looking for internships or job opportunities so feel free to reach out to me!
             </p>
           </div>
         </section>
