@@ -4,11 +4,10 @@ import Link from 'next/link';
 export default function Contacts() {
   return (
     <section className="mx-auto max-w-screen-sm px-5 py-1">
-      <h2 className="text-foreground font-bold mb-8" id="contacts">Contacts</h2>
+      <h2 className="text-foreground font-bold mb-2 underline" id="contacts">Contacts</h2>
       <div>
         <p className="text-muted-foreground">
-          Feel free to connect with me on LinkedIn or send me an email.
-          I&apos;ve started getting into books and reading so please recommend me some!
+          Feel free to connect with me on LinkedIn or shoot me an email!
         </p>
         <div className="py-3 text-foreground">
           <Link href="https://github.com/fenkur" className="hover:underline hover:text-primary transition duration-200">GitHub</Link>

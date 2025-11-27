@@ -16,14 +16,15 @@ export default function Home() {
             <p className="text-foreground leading-relaxed">
               I&apos;m a student at the University of Minnesota majoring in IT Infrastructure. 
               I like learning new technologies and things in general. I hope to one day inspire others,
-              just like how I was inspired by others.
+              just like how I was inspired by others. In my spare time I like to listen to music, 
+              go to the gym, drive, read mangas and books, eat food, and try new things. I also volunteer from time to time.
             </p>
           </div>
         </section>
 
-        <section className="mx-auto max-w-screen-sm px-5 py-12">
-          <div className="space-y-6">
-            <h1 className="text-1xl font-bold" id="projects">Projects</h1>
+        <section className="mx-auto max-w-screen-sm px-5 py-8">
+          <div className="space-y-4">
+            <h1 className="text-1xl font-bold underline" id="projects">Projects</h1>
 
             <Link href="https://github.com/fenkur/study-website" className="hover:text-primary transition-colors">
               <h1 className="font-semibold">Study Tracker Website:</h1>
@@ -68,7 +69,7 @@ export default function Home() {
             </p>
 
             <Link href='https://github.com/fenkur/QuickAI' className="hover:text-primary transition-colors">
-              <h1 className="font-semibold">QuickAI: AI SaaS Platform</h1>
+              <h1 className="font-semibold">QuickAI - AI SaaS Platform:</h1>
             </Link>
             <p className="text-muted-foreground">
               QuickAI is a full-stack AI-powered SaaS platform built with the PERN stack (PostgreSQL, Express.js, React, Node.js). 

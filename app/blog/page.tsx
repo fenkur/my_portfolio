@@ -11,7 +11,7 @@ export default function Home() {
         <div className="flex flex-col min-h-screen bg-background text-foreground">
             <main className="flex-grow px-8">
                 <section className="mx-auto max-w-screen-sm px-5 pt-10 pb-2">
-                    <div className="space-y-6">
+                    <div className="space-y-3">
                         <h1 className="text-1xl font-bold">Blog / Yap</h1>
                         <p className="text-foreground leading-relaxed">
                             This will be a dedicated page for my background, interest, and other stuff I&apos;m interested in. 
@@ -24,7 +24,7 @@ export default function Home() {
                             knowledge to help others or just make whatever I want that comes to mind. 
                         </p>
                         <p className="text-foreground leading-relaxed">
-                            In my spare time I like to listen to music, go to the gym, drive, read mangas and books, eat food, and try new things.
+                            In my spare time I like to listen to music, go to the gym, drive, read mangas and books, eat food, and try new things. I also like to volunteer from time to time.
                         </p>
                         <p className="text-foreground leading-relaxed">
                             It&apos;s currently summer right now so I&apos;m trying to find a job and build projects along the way. I&apos;m also trying to get an AWS certificate along the way.
