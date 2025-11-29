@@ -85,6 +85,25 @@ export default function Home() {
               It taught me about agent coordination, tool integration with YFinance and DuckDuckGo, and how to structure AI systems that can 
               delegate tasks intelligently. I used Groq&apos;s LLaMA 3.3 model for the AI inference.
             </p>
+
+            <Link href='https://github.com/fenkur/agentic-ai/tree/main/pdf-assistant' className="hover:text-primary transition-colors">
+              <h1 className="font-semibold">Agentic AI - PDF Assistant:</h1>
+            </Link>
+            <p className="text-muted-foreground">
+              A conversational AI assistant that reads and answers questions about PDF documents using RAG. It uses PDF knowledge base, semantic search,
+              and vector embeddings to retrieve relevant information from documents. This project helped me learn how to combine document processing, vector databases,
+              and conversational memory into one intelligent assistant.
+            </p>
+
+            <Link href='https://github.com/fenkur/ugit' className="hover:text-primary transition-colors">
+              <h1 className="font-semibold">ugit - Simplified Git Implementation:</h1>
+            </Link>
+            <p className="text-muted-foreground">
+              A simplified version of Git built in Python to understand the core concepts of version control systems. It is a work in progress but
+              I was really curious about how Git works under the hood so I decided to build my own version following this tutorial:
+              <Link href='https://www.leshenko.net/p/ugit/' className="underline hover:text-primary"> https://www.leshenko.net/p/ugit/</Link>
+            </p>
+            
           </div>
         </section>
         <Contacts />
