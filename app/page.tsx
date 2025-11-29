@@ -95,6 +95,17 @@ export default function Home() {
               and conversational memory into one intelligent assistant.
             </p>
 
+            <Link href='https://github.com/fenkur/agentic-ai/tree/main/video-summarizer' className="hover:text-primary transition-colors">
+              <h1 className="font-semibold">Agentic AI - Video Summarizer:</h1>
+            </Link>
+            <p className="text-muted-foreground">
+              A multimodal AI agent that analyzes video content and answers questions using Google&apos;s Gemini 2.0 Flash model. 
+              The agent can process uploaded videos and provide detailed insights by combining video understanding with web search capabilities through DuckDuckGo. 
+              I built it using Streamlit and Phidata&apos;s agent framework, learning how to handle video file processing, implement multimodal AI interactions, 
+              and integrate multiple tools into a single intelligent agent. I tested it with a 30-second weather news clip and it successfully extracted 
+              specific information like temperatures, locations, and forecasts from the video content.
+            </p>
+
             <Link href='https://github.com/fenkur/ugit' className="hover:text-primary transition-colors">
               <h1 className="font-semibold">ugit - Simplified Git Implementation:</h1>
             </Link>
