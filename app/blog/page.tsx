@@ -1,4 +1,6 @@
 import Link from 'next/link';
+import Image from 'next/image';
+import laughGif from './laugh.gif';
 
 export const metadata = {
     title: 'Blog',
@@ -16,16 +18,17 @@ export default function Home() {
                         <p className="text-foreground leading-relaxed">
                             This will be a dedicated page for my background, interest, and other stuff I&apos;m interested in. 
                             My interest for tech started when I was a kid. I was always playing games on Roblox or Facebook during the 2010&apos;s and it got me into hacking.
-                            I started watching tutorials on YouTube on how to get those hacks and it taught me how to use a tool called Cheat Engine. Looking back at it,
-                            I realized how it was able to do all those things because during my first programming class, we were taught about data types such as integers, floats, etc. 
-                            and Cheat Engine allowed you to change certain memory to whatever you want. I haven&apos;t learned Assembly but the GUI for Cheat Engine looked similar so I understand
-                            now how it was able to do all hacks back then. Another thing that got me into tech was my friends and family. I come from a family of immigrants so my parents
-                            didn&apos;t speak English very well. I was able to learn English through school and YouTube tutorials so they would come to me for tech related stuff. I hope to use my
-                            knowledge to help others or just make whatever I want that comes to mind. 
+                            I started watching tutorials on YouTube on how to get those hacks and it taught me how to use a software called Cheat Engine. Back then systems weren&apos;t
+                            as secure as they are now so I was able to change values in games and mess around with them. Another reason was because I was the go-to person for fixing tech related
+                            issues for my family and friends. I always liked helping people out and fixing things so that&apos;s another reason why I got into tech.
                         </p>
+
+                        <h1 className="text-1xl font-bold">Hobbies</h1>
                         <p className="text-foreground leading-relaxed">
                             In my spare time I like to listen to music, go to the gym, drive, read mangas and books, eat food, and try new things.
                         </p>
+
+                        <h1 className="text-1xl font-bold">Summer 2025</h1>
                         <p className="text-foreground leading-relaxed">
                             It&apos;s currently summer right now so I&apos;m trying to find a job and build projects along the way. I&apos;m also trying to get an AWS certificate along the way.
                         </p>
@@ -34,8 +37,6 @@ export default function Home() {
                             I want to get more certifications but I feel like I need better projects ideas to land an internship. Anyways I&apos;ll be studying for AWS certifications from a website called 
                             learn.cantrill.io, which I got from my professor. I will also try to do projects.. Oh yea here are the certifications I earned over the summer!
                         </p>
-
-                        <h1 className="text-1xl font-bold mt-8">Certifications</h1>
                         <div className="space-y-2">
                             <Link href="https://catalog-education.oracle.com/pls/certview/sharebadge?id=CDB9DB7A5B906505FF25DC5D2012FEF1A1D76A560C223EDBCCE4A3C366276F63" className="block hover:text-primary transition-colors">
                                 <p className="hover:underline">Oracle Cloud Infrastructure 2025 Certified Generative AI Professional</p>
@@ -47,6 +48,21 @@ export default function Home() {
                                 <p className="hover:underline">Oracle Cloud Infrastructure 2025 Certified Foundations Associate</p>
                             </Link>
                         </div>
+
+                        <h1 className="text-1xl font-bold">Winter 2025 / Now</h1>
+                        <p className="text-foreground leading-relaxed">
+                            I been applying to internships and ts making me crash out 😂✌️.
+                            But it&apos;s okay because whether the world decides to give me an opportunity or not, I will win.
+                            I&apos;m just trolling chat. But if I don&apos;t get one, christmas lights ain&apos;t gonna be the only thing
+                            hanging 😂😂💀🙏
+                        </p>
+                        <Image
+                            src={laughGif}
+                            alt='laugh'
+                            width={500}
+                            height={260}
+                            unoptimized={true}
+                        />
                     </div>
                 </section>
             </main>
