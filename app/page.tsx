@@ -114,6 +114,14 @@ export default function Home() {
               I was really curious about how Git works under the hood so I decided to build my own version following this tutorial:
               <Link href='https://www.leshenko.net/p/ugit/' className="underline hover:text-primary"> https://www.leshenko.net/p/ugit/</Link>
             </p>
+
+            <Link href='https://github.com/fenkur/poli-bias' className="hover:text-primary transition-colors">
+              <h1 className="font-semibold">Poli-Bias: News Bias Analyzer:</h1>
+            </Link>
+            <p className="text-muted-foreground">
+              An AI-powered Chrome extension that analyzes news articles for political bias, emotional framing, and fact vs. opinion distinctions in real-time. Built with Node.js, PostgreSQL, and Groq AI (Llama 3.3 70B), featuring smart caching that reduces API costs by 90%. 
+              Successfully tested on major news outlets with a focus on promoting media literacy. Built with the help of Claude Sonnet 4.5 :D
+            </p>
             
           </div>
         </section>
