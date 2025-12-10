@@ -1,6 +1,5 @@
 import Link from 'next/link';
-import Image from 'next/image';
-import laughGif from './laugh.gif';
+
 
 export const metadata = {
     title: 'Blog',
@@ -51,18 +50,9 @@ export default function Home() {
 
                         <h1 className="text-1xl font-bold">Winter 2025 / Now</h1>
                         <p className="text-foreground leading-relaxed">
-                            I been applying to internships and ts making me crash out 😂✌️.
-                            But it&apos;s okay because whether the world decides to give me an opportunity or not, I will win.
-                            I&apos;m just trolling chat. But if I don&apos;t get one, christmas lights ain&apos;t gonna be the only thing
-                            hanging 😂😂💀🙏
+                            Okay the semester finally ended. Now I just gotta prepare for interviews, do leetcode, finish my ugit project, learn about mcp servers, study for 
+                            AWS certifications, and work on more projects for this winter break. Sounds fun!!!
                         </p>
-                        <Image
-                            src={laughGif}
-                            alt='laugh'
-                            width={500}
-                            height={260}
-                            unoptimized={true}
-                        />
                     </div>
                 </section>
             </main>
